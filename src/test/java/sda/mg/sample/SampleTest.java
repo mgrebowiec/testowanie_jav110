@@ -30,12 +30,14 @@ class SampleTest {
     }
 
     @Test
+    @DisplayName("Metoda testowa numer 1")
     void shouldPrint1() {
         System.out.println("test 1");
         assertEquals(sampleValue, new String("AAA"));
     }
 
     @Test
+    @Disabled
     void shouldPrint2() {
         System.out.println("test 2");
     }
